@@ -97,7 +97,7 @@ gedit javascript/query.js
 
 
 main 함수의 `queryCar` 함수 호출 부분을 아래 `queryCar` 호출코드로 변경후 저장  
-(`[2]_queryCar12` 파일 참고)
+(`[2]_queryCar12.txt` 파일 참고)
 ##### 수정전
 ```javascript
 const result = await contract.evaluateTransaction('queryCar', 'CAR4');
@@ -124,7 +124,7 @@ invoke.js 파일을 수정할수 있도록 에디터로 실행함
 
 
 main 함수의 `createCar` 함수 호출 부분을 아래 `changeCarOwner` 호출코드로 변경후 저장  
-(`[3]_changeCar12Owner` 파일 참고)
+(`[3]_changeCar12Owner.txt` 파일 참고)
 
 ##### 수정전
 ```javascript
