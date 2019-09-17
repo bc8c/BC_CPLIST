@@ -1,8 +1,8 @@
-1. 개발환경 세팅
-1.1. 사용중인 도커 삭제 및 네트워크 초기화
-docker rm -f $(docker ps –aq)
-docker network prune
-( ☞ y 선택 )
+# 1. 개발환경 세팅
+  1.1. 사용중인 도커 삭제 및 네트워크 초기화
+    docker rm -f $(docker ps –aq)
+    docker network prune
+    ( ☞ y 선택 )
 
 
 2. 클라이언트 설치 및 네트워크 시작
